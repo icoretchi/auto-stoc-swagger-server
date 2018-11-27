@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: "LemonMart API"
+  description: "Auto-Stoc API"
   version: "1.0.0"
-  title: "LemonMart"
+  title: "Auto-Stoc"
 host: "localhost:3000"
 basePath: "/v1"
 schemes:

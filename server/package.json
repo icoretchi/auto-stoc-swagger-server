@@ -1,7 +1,7 @@
 {
-  "name": "lemonmart",
+  "name": "auto-stoc",
   "version": "1.0.0",
-  "description": "LemonMart API",
+  "description": "Auto-Stoc API",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
