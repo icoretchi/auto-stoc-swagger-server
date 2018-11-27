@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: LemonMart
-  description: LemonMart API
+  title: Auto-Stoc
+  description: Auto-Stoc API
   version: "1.0.0"
 
 host: localhost:3000

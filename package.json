@@ -1,11 +1,11 @@
 {
-  "name": "lemon-mart-swagger-server",
+  "name": "auto-stoc-swagger-server",
   "version": "1.0.0",
-  "description": "Mock Swagger Server for LemonMart",
+  "description": "Mock Swagger Server for Auto-Stoc",
   "main": "index.js",
   "config": {
-    "imageRepo": "duluca/lemon-mart-swagger-server",
-    "imageName": "lemon-mart-swagger-server",
+    "imageRepo": "icoretchi/auto-stoc-swagger-server",
+    "imageName": "auto-stoc-swagger-server",
     "imagePort": "3000"
   },
   "scripts": {
@@ -24,21 +24,22 @@
     "docker:open:mac": "echo Trying to launch on MacOS && sleep 2 && URL=http://localhost:$npm_package_config_imagePort/docs && open $URL",
     "docker:debugmessage": "echo Docker Debug Completed Successfully! Hit Ctrl+C to terminate log tailing.",
     "predocker:debug": "run-s -c docker:build docker:run",
-    "docker:debug": "run-s -cs docker:open:win docker:open:mac docker:debugmessage docker:taillogs"
+    "docker:debug": "run-s -cs docker:open:mac docker:debugmessage docker:taillogs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icoretchi/lemon-mart-swagger-server.git"
+    "url": "git+https://github.com/icoretchi/auto-stoc-swagger-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/icoretchi/lemon-mart-swagger-server/issues"
+    "url": "https://github.com/icoretchi/auto-stoc-swagger-server/issues"
   },
-  "homepage": "https://github.com/icoretchi/lemon-mart-swagger-server#readme",
+  "homepage": "https://github.com/icoretchi/auto-stoc-swagger-server#readme",
   "devDependencies": {
     "cross-conf-env": "^1.1.2",
-    "npm-run-all": "^4.1.3"
-  }
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {}
 }
